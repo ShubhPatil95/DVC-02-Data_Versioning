@@ -1,4 +1,4 @@
-<h2> <a href="https://github.com/ShubhPatil95/DVC-02-Data_Versioning"> 02 - DVC Data File Versioning </a></h2>
+<h2> <a href="https://github.com/ShubhPatil95/DVC-02-Data_Versioning"> DVC-02-Data_Versioning </a></h2>
 
 <p>
 <strong> Here in this tutorial we will see how we can keep track of data file which changes over time and how can we restore the data file of particuler commits</strong>
