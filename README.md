@@ -48,10 +48,10 @@ dvc push
 * Again edit the data.txt file and write the sentence "This is third commit". Further add edited data.txt to DVC and commit/push the changes to git and dvc.
 ```ruby
 nano data.txt
-dvc add data.txt
+dvc add data.txt  ## This file will not track by git anymore and has been added to .gitignore and data.txt.dvc will be pushed to git further
 git add .
 git commit -m "Third Commit"
-dvc push
+dvc push  ## data.txt is pushed to remote storage
 ```  
 ### Step8
 * Finally create a github repository named DVC-02-Data_Versioning and push the commits into it.
